@@ -1,0 +1,152 @@
+body {
+  background-image: url(gambar.jpg);
+}
+.card {
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  width: 550px;
+  height: 730px;
+  margin: 50px auto 10px auto;
+  padding: 15px 0  0 15px;
+  box-shadow: 0 5px 7px grey;
+
+}
+h1 {
+  position: relative;
+  line-height: 0;
+}
+
+p.small {
+  color: grey;
+  font-size: 90%;
+  margin-bottom: 25px;
+}
+
+div.form-content input {
+  border-style: solid;
+  border-color: #d9d9d9;
+  width: 90%;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 10%
+}
+
+#FirstName,#LastName,#Telp,#Umur,#email,#password {
+  padding: 5px;
+}
+
+div.form-content input:focus {
+border-color: rgba(21,127,219,.63);
+  outline: none;
+}
+
+
+p {
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #2386be;
+  font-weight: bold;
+  padding: 5px;
+}
+
+
+
+
+a:hover {
+  background-color: lightblue;
+  border-radius: 5px;
+  text-decoration: underline;
+}
+
+
+button.submit {
+  border: none;
+  font-size: 130%;
+  font-weight: bold;
+  width: 330px;
+  height: 50px;
+  padding: 5px;
+  margin-left: 100px;
+  margin-right: auto;
+  border-radius: 25px;
+  color: white;
+  text-decoration: solid;
+  background-color: #0176b6;
+}
+
+button.submit:hover {
+  background-color: darkblue;
+}
+
+p.divider {
+  position: relative;
+  text-align: center;
+  color: #868686;
+  margin-right: 18px;
+  margin-left: auto;
+}
+p.divider::before{
+  color: #868686;
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 140px;
+  margin-left: auto;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  background: #868686;
+}
+
+
+
+p.divider::after {
+  color: #868686;
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 140px;
+  margin-left: 15px;
+  margin-right: auto;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  background: #868686;
+}
+
+
+button.social {
+  border-color: #868686;
+  border-top-color: #868686;
+  border-bottom-color: #868686;
+  font-size: 100%;
+  width: 330px;
+  height: 50px;
+  padding: 5px;
+  margin-left: 100px;
+  margin-right: auto;
+  border-radius: 25px;
+  color: #868686;
+  text-decoration: solid;
+  background-color: white;
+
+}
+
+button.social:hover {
+  background-color: #d2d2d2;
+}
+
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
